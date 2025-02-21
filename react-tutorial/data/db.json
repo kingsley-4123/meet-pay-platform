@@ -1,0 +1,59 @@
+{
+    "jobs": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "company": "Tech Solutions",
+      "location": "Remote",
+      "salary": 90000,
+      "description": "Responsible for developing scalable software solutions. And helping the world becomme a better place",
+      "datePosted": "2023-10-01"
+    },
+    {
+      "id": 2,
+      "title": "Product Manager",
+      "company": "Innovate Inc.",
+      "location": "New York, NY",
+      "salary": 120000,
+      "description": "Oversee product development from inception to launch. And helping the world becomme a better place",
+      "datePosted": "2023-09-15"
+    },
+    {
+      "id": 3,
+      "title": "Data Analyst",
+      "company": "Data Insights",
+      "location": "San Francisco, CA",
+      "salary": 80000,
+      "description": "Analyze and interpret complex data to drive business decisions. And helping the world becomme a better place",
+      "datePosted": "2023-08-20"
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Designer",
+      "company": "Creative Minds",
+      "location": "Austin, TX",
+      "salary": 75000,
+      "description": "Design user-friendly interfaces and experiences. And helping the world becomme a better place",
+      "datePosted": "2023-10-05"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Engineer",
+      "company": "Cloud Services",
+      "location": "Chicago, IL",
+      "salary": 110000,
+      "description": "Ensure system uptime and reliability through automation. And helping the world becomme a better place",
+      "datePosted": "2023-09-30"
+    },
+    {
+      "id": 6,
+      "title": "AI/ML Engineer",
+      "company": "E-commerce Services",
+      "location": "Los Angeles, LA",
+      "salary": 140000,
+      "description": "Provides AI generated application for clients. And helping the world becomme a better place",
+      "datePosted": "2024-09-21"
+    }
+  ]
+}
+  
