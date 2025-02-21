@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import GetStarted from './GetStarted';
-import Logo from '../assets/images/logo.png'
 import { NavLink} from 'react-router-dom';
 
 const NavBar = () => { 
@@ -17,7 +16,7 @@ const NavBar = () => {
       <div className="flex items-center justify-between">
         {/* <!--Logo--> */}
         <div className="pt-2 h-20 w-20 drop-shadow-md">
-          <img src={Logo} alt="Manage" className='rounded-full' />
+          <img src='/images/logo.png' alt="Manage" className='rounded-full' />
         </div>
         {/* <!-- Menu items--> */}
         <div className="hidden md:flex space-x-6">
@@ -39,7 +38,7 @@ const NavBar = () => {
 
       {/* <!-- mobile menu --> */}
       <div className="md:hidden">
-        <div id="menu" className={`absolute flex-col items-center self-end py-8
+        <div id="menu" className={`absolute flex-col items-center z-10 self-end py-8
         sm:self-center mt-10 space-y-6 font-bold bg-gray-200 sm:w-auto 
         left-6 right-6 drop-shadow-md ${menuOPened ? 'flex' : 'hidden'}`}>
           <NavLink to="/home" className={linkClass}>Home</NavLink>
